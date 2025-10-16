@@ -4,6 +4,6 @@ from paras.models import Employee
 
 def home(request):
     paras = Employee.objects.all()
-    context = {'paras': paras, }
+    context = {'paras' : paras,}
     return render(request, 'index.html', context)
 
