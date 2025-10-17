@@ -22,3 +22,15 @@ img{
     height: 100%;
     width: 100%;
 } */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+
+}
+
+tbody{
+    text-align: center;
+    color: brown;
+}
